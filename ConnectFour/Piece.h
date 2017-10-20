@@ -1,9 +1,7 @@
 #pragma once
-class Piece
+abstract class Piece
 {
 public:
-	Piece();
-	~Piece();
-};
+	moveTo();
 
-	
+};
