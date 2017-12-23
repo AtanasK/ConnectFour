@@ -1,12 +1,17 @@
 #include "Piece.h"
 
 
+Piece::Piece(int x, int y)
+{
+	this->x_ = x;
+	this->y_ = y;
+}
 
-Piece::Piece()
+void Piece::moveTo(int x)
 {
 }
 
-
-Piece::~Piece()
+int Piece::getValue()
 {
+	return this->playerCode;
 }
