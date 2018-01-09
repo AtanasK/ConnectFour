@@ -7,7 +7,7 @@ private:
 	GameBoard game_board_;
 	bool gameOver;
 	int winner;
-	bool move;
+	bool isPlayer;
 
 public:
 	Game();

@@ -14,4 +14,5 @@ public:
 	~GameBoard();
 	void printBoard();
 	int getPiece(int x, int y);
+	void putPiece(int x, int player);
 };
